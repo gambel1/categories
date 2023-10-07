@@ -1,0 +1,36 @@
+.categories {
+  padding: 150px 0;
+}
+
+.categoriesBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.categoriesBoxButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-grey);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listItem {
+  padding: 5px 10px;
+  background-color: orange;
+  border: 1px solid var(--color-grey);
+  color: var(--color-white);
+}
+
+.title {
+  text-align: center;
+}
